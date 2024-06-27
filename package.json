@@ -119,8 +119,8 @@
     "fsevents": "^2.3.3"
   },
   "peerDependencies": {
-    "react": ">= 16",
-    "typescript": "^3.2.1 || ^4"
+    "react": "^18.0.0",
+    "typescript": "^5.5.2"
   },
   "peerDependenciesMeta": {
     "typescript": {
