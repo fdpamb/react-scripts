@@ -71,9 +71,9 @@
     "style-loader": "^4.0.0",
     "tailwindcss": "^3.0.2",
     "terser-webpack-plugin": "^5.2.5",
-    "webpack": "^5.64.4",
-    "webpack-dev-server": "^5.0.4",
-    "webpack-manifest-plugin": "^5.0.0",
+    "webpack": "^5.92.1",
+    "webpack-dev-server": "^4.15.2",
+    "webpack-manifest-plugin": "^4.1.1",
     "workbox-webpack-plugin": "^7.1.0"
   },
   "scripts": {
@@ -87,6 +87,7 @@
     "format": "npm run prettier -- --write"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@testing-library/jest-dom": "^6.4.6",
     "@testing-library/react": "^16.0.0",
     "@testing-library/user-event": "^14.5.2",
