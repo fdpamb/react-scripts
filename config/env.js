@@ -43,8 +43,8 @@ dotenvFiles.forEach(dotenvFile => {
     const dotenv = require('dotenv');
     const dotenvExpand = require('dotenv-expand');
     const dotenvConfig = dotenv.config({ path: dotenvFile, });
-    //dotenvExpand.expand(dotenvConfig);//new version
-    dotenvExpand(dotenvConfig);//old version
+    dotenvExpand.expand(dotenvConfig);//new version
+    //dotenvExpand(dotenvConfig);//old version
   }
 });
 
