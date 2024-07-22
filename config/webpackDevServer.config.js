@@ -99,7 +99,7 @@ module.exports = function (proxy, allowedHost) {
       publicPath: paths.publicUrlOrPath.slice(0, -1),
     },
 
-    https: getHttpsConfig(),
+    //https: getHttpsConfig(),
     host,
     historyApiFallback: {
       // Paths with dots should still use the history fallback.
@@ -136,6 +136,8 @@ module.exports = function (proxy, allowedHost) {
         throw new Error("webpack-dev-server is not defined")
       }
   
+      devServer.https = getHttpsConfig()
+
       if (fs.existsSync(paths.proxySetup)) {
         require(path.proxySetup) (devServer.app)
       }
