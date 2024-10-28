@@ -28,7 +28,7 @@
   },
   "types": "./lib/react-app.d.ts",
   "dependencies": {
-    "@babel/core": "^7.25.8",
+    "@babel/core": "^7.26.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
     "@svgr/webpack": "^8.1.0",
     "babel-jest": "^29.7.0",
@@ -36,7 +36,7 @@
     "babel-plugin-named-asset-import": "github:fdpamb/babel-plugin-named-asset-import",
     "babel-preset-react-app": "github:fdpamb/babel-preset-react-app",
     "bfj": "^9.0.2",
-    "browserslist": "^4.24.0",
+    "browserslist": "^4.24.2",
     "camelcase": "^8.0.0",
     "case-sensitive-paths-webpack-plugin": "^2.4.0",
     "css-loader": "^7.1.2",
@@ -48,7 +48,7 @@
     "eslint-webpack-plugin": "^4.2.0",
     "file-loader": "^6.2.0",
     "fs-extra": "^11.2.0",
-    "html-webpack-plugin": "^5.6.2",
+    "html-webpack-plugin": "^5.6.3",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
     "jest-resolve": "^29.7.0",
@@ -58,7 +58,7 @@
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-loader": "^8.1.1",
     "postcss-normalize": "^13.0.1",
-    "postcss-preset-env": "^10.0.7",
+    "postcss-preset-env": "^10.0.8",
     "prompts": "^2.4.2",
     "react-app-polyfill": "github:fdpamb/react-app-polyfill",
     "react-dev-utils": "github:fdpamb/react-dev-utils",
@@ -87,13 +87,13 @@
     "format": "npm run prettier -- --write"
   },
   "devDependencies": {
-    "@babel/plugin-transform-private-property-in-object": "^7.25.8",
+    "@babel/plugin-transform-private-property-in-object": "^7.25.9",
     "@testing-library/jest-dom": "^6.6.2",
     "@testing-library/react": "^16.0.1",
     "@testing-library/user-event": "^14.5.2",
     "alex": "^11.0.1",
     "eslint": "^8.57.0",
-    "execa": "^9.4.1",
+    "execa": "^9.5.0",
     "fs-extra": "^11.2.0",
     "get-port": "^7.1.0",
     "globby": "^14.0.2",
@@ -114,7 +114,7 @@
     "tempy": "^3.1.0",
     "typescript": "^5.6.3",
     "wait-for-localhost": "^4.1.0",
-    "web-vitals": "^4.2.3"
+    "web-vitals": "^4.2.4"
   },
   "optionalDependencies": {
     "fsevents": "^2.3.3"
