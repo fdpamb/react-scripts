@@ -112,7 +112,7 @@
     "strip-ansi": "^7.1.0",
     "svg-term-cli": "^2.1.1",
     "tempy": "^3.1.0",
-    "typescript": "^5.6.3",
+    "typescript": "^5.7.2",
     "wait-for-localhost": "^4.1.0",
     "web-vitals": "^4.2.4"
   },
@@ -121,7 +121,7 @@
   },
   "peerDependencies": {
     "react": "^18.0.0",
-    "typescript": "^5.5.2"
+    "typescript": "^5.7.2"
   },
   "peerDependenciesMeta": {
     "typescript": {
