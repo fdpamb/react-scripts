@@ -4,15 +4,14 @@
   "description": "Configuration and scripts for Create React App.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
-    "directory": "packages/react-scripts"
+    "url": "https://github.com/fdpamb/react-scripts"
   },
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/fdpamb/react-scripts/issues"
   },
   "files": [
     "bin",
@@ -66,10 +65,10 @@
     "resolve": "^1.22.10",
     "resolve-url-loader": "^5.0.0",
     "sass-loader": "^16.0.4",
-    "semver": "^7.7.0",
+    "semver": "^7.7.1",
     "source-map-loader": "^5.0.0",
     "style-loader": "^4.0.0",
-    "tailwindcss": "^4.0.1",
+    "tailwindcss": "^4.0.3",
     "terser-webpack-plugin": "^5.3.11",
     "webpack": "^5.97.1",
     "webpack-dev-server": "^5.2.0",
@@ -120,7 +119,7 @@
     "fsevents": "^2.3.3"
   },
   "peerDependencies": {
-    "react": "^18.0.0",
+    "react": "^18.3.1",
     "typescript": "^5.7.2"
   },
   "peerDependenciesMeta": {
