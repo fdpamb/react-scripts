@@ -35,7 +35,7 @@
     "babel-plugin-named-asset-import": "github:fdpamb/babel-plugin-named-asset-import",
     "babel-preset-react-app": "github:fdpamb/babel-preset-react-app",
     "bfj": "^9.1.2",
-    "browserslist": "^4.26.2",
+    "browserslist": "^4.26.3",
     "camelcase": "^8.0.0",
     "case-sensitive-paths-webpack-plugin": "^2.4.0",
     "css-loader": "^7.1.2",
@@ -61,14 +61,14 @@
     "prompts": "^2.4.2",
     "react-app-polyfill": "github:fdpamb/react-app-polyfill",
     "react-dev-utils": "github:fdpamb/react-dev-utils",
-    "react-refresh": "^0.17.0",
+    "react-refresh": "^0.18.0",
     "resolve": "^1.22.10",
     "resolve-url-loader": "^5.0.0",
     "sass-loader": "^16.0.5",
     "semver": "^7.7.2",
     "source-map-loader": "^5.0.0",
     "style-loader": "^4.0.0",
-    "tailwindcss": "^4.1.13",
+    "tailwindcss": "^4.1.14",
     "terser-webpack-plugin": "^5.3.14",
     "webpack": "^5.102.0",
     "webpack-dev-server": "^5.2.2",
@@ -87,7 +87,7 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-private-property-in-object": "^7.27.1",
-    "@testing-library/jest-dom": "^6.8.0",
+    "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^14.6.1",
     "alex": "^11.0.1",
@@ -95,7 +95,7 @@
     "execa": "^9.6.0",
     "fs-extra": "^11.3.2",
     "get-port": "^7.1.0",
-    "globby": "^14.1.0",
+    "globby": "^15.0.0",
     "husky": "9.1.7",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
@@ -105,13 +105,13 @@
     "meow": "^14.0.0",
     "multimatch": "^7.0.0",
     "prettier": "^3.6.2",
-    "puppeteer": "^24.22.3",
+    "puppeteer": "^24.23.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "strip-ansi": "^7.1.2",
     "svg-term-cli": "^2.1.1",
     "tempy": "^3.1.0",
-    "typescript": "^5.9.2",
+    "typescript": "^5.9.3",
     "wait-for-localhost": "^5.0.0",
     "web-vitals": "^5.1.0"
   },
@@ -141,13 +141,13 @@
   },
   "overrides": {
     "@rollup/plugin-node-resolve": {
-      "es5-ext": "0.10.53"
+      "es5-ext": "github:fdpamb/es5-ext#patch-upgrade-0.10.64"
     },
     "webpack": {
-      "es5-ext": "0.10.53"
+      "es5-ext": "github:fdpamb/es5-ext#patch-upgrade-0.10.64"
     },
     "JSONStream": {
-      "es5-ext": "0.10.53"
+      "es5-ext": "github:fdpamb/es5-ext#patch-upgrade-0.10.64"
     }
   }
 }
