@@ -148,6 +148,172 @@
     },
     "JSONStream": {
       "es5-ext": "github:fdpamb/es5-ext#patch-upgrade-0.10.64"
+    },
+    "@pmmmwh/react-refresh-webpack-plugin": {
+      "cross-spawn": "^7.0.6"
+    },
+    "get-pkg-repo": {
+      "cross-spawn": "^7.0.6"
+    },
+    "yargs": {
+      "cross-spawn": "^7.0.6"
+    },
+    "lerna": {
+      "cross-spawn": "^7.0.6"
+    },
+    "execa": {
+      "cross-spawn": "^6.0.6"
+    },
+    "lerna-changelog": {
+      "cross-spawn": "^7.0.6"
+    },
+    "eslint": {
+      "cross-spawn": "^7.0.6"
+    },
+    "cli-highlight": {
+      "cross-spawn": "^7.0.6"
+    },
+    "@lerna/create": {
+      "cross-spawn": "^7.0.6"
+    },
+    "jest-changed-files": {
+      "cross-spawn": "^7.0.6"
+    },
+    "promise-all-reject-late": {
+      "cross-spawn": "^6.0.6"
+    },
+    "minipass-sized": {
+      "cross-spawn": "^6.0.6"
+    },
+    "svg-term-cli": {
+      "node-fetch": "2.6.7",
+      "cross-spawn": "^6.0.6",
+      "nth-check": "^2.1.1",
+      "plist": "^3.1.0",
+      "trim-newlines": "^3.0.1"
+    },
+    "macos-app-config": {
+      "cross-spawn": "^6.0.6"
+    },
+    "ajv": {
+      "glob": "^10.5.0"
+    },
+    "typescript": {
+      "glob": "^10.5.0"
+    },
+    "axe-core": {
+      "glob": "^10.5.0"
+    },
+    "tinyglobby": {
+      "glob": "^10.5.0"
+    },
+    "fdir": {
+      "glob": "^10.5.0"
+    },
+    "@octokit/plugin-paginate-rest": {
+      "glob": "^10.5.0"
+    },
+    "@octokit/endpoint": {
+      "glob": "^10.5.0"
+    },
+    "@octokit/graphql": {
+      "glob": "^10.5.0"
+    },
+    "@octokit/core": {
+      "glob": "^10.5.0"
+    },
+    "@octokit/request": {
+      "glob": "^10.5.0"
+    },
+    "@octokit/auth-token": {
+      "glob": "^10.5.0"
+    },
+    "@octokit/plugin-request-log": {
+      "glob": "^10.5.0"
+    },
+    "@octokit/plugin-rest-endpoint-methods": {
+      "glob": "^10.5.0"
+    },
+    "@octokit/request-error": {
+      "glob": "^10.5.0"
+    },
+    "@octokit/rest": {
+      "glob": "^10.5.0"
+    },
+    "schema-utils": {
+      "glob": "^10.5.0"
+    },
+    "@npmcli/map-workspaces": {
+      "glob": "^10.5.0"
+    },
+    "node-gyp": {
+      "glob": "^10.5.0"
+    },
+    "fast-glob": {
+      "glob": "^10.5.0"
+    },
+    "ajv-formats": {
+      "glob": "^10.5.0"
+    },
+    "workbox-build": {
+      "glob": "^11.1.0"
+    },
+    "cacache": {
+      "glob": "^11.1.0"
+    },
+    "cssdb": {
+      "glob": "^11.1.0"
+    },
+    "@npmcli/package-json": {
+      "glob": "^11.1.0"
+    },
+    "node-abort-controller": {
+      "node-fetch": "2.6.7"
+    },
+    "mdast-util-gfm": {
+      "node-fetch": "^3.3.2"
+    },
+    "terminal-default-colors": {
+      "node-fetch": "2.6.7"
+    },
+    "svgo": {
+      "nth-check": "^2.1.1"
+    },
+    "css-select": {
+      "nth-check": "^2.1.1"
+    },
+    "compression": {
+      "on-headers": "^1.1.0"
+    },
+    "term-schemes": {
+      "plist": "^3.1.0"
+    },
+    "meow": {
+      "trim-newlines": "^3.0.1"
+    },
+    "git-raw-commits": {
+      "trim-newlines": "^3.0.1"
+    },
+    "conventional-commits-parser": {
+      "trim-newlines": "^3.0.1"
+    },
+    "conventional-recommended-bump": {
+      "trim-newlines": "^3.0.1"
+    },
+    "conventional-changelog-writer": {
+      "trim-newlines": "^3.0.1"
+    },
+    "git-semver-tags": {
+      "trim-newlines": "^3.0.1"
+    },
+    "alex": {
+      "trim-newlines": "^4.1.1"
+    },
+    "svg-term": {
+      "xmldom": "^0.6.0"
+    },
+    "plist": {
+      "xmldom": "^0.6.0"
     }
   }
 }
